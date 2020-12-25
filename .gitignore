@@ -9,3 +9,5 @@ ClusterImage.egg-info
 
 .nfs*
 .ipynb_checkpoints
+
+.DS_Store
