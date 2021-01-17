@@ -28,6 +28,28 @@ The format, regardless of the folder, will have a phase associated with it. As a
 |Notebooks | The Jupyter Notebooks |
 |Slides  | The slides |
 
+## Naming Conventions
+Most of the names are intended to be consistent between the Notebook and Slides folders.  The format is:
+
+```
+[module].[lecture].[subpart]
+```
+For example, if we're in week 3, and lecture 4, then the corresponding notebook would be:
+```
+03.04.*
+```
+
+The goal is to make this easier to follow, so the notebooks can be split up for a specific lecture.  In the above case, if we have 2 notebooks then the files would be:
+```text
+03.04.01.ipynb
+03.04.02.ipynb
+```
+
+Which relates to the slide:
+```text
+03.04.pptx
+```
+
 # Working with the Repository
 
 Please see the supplemental lecture for Modules 0 and 1 for more detailed information.  In summary:
