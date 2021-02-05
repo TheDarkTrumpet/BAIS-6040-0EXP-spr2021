@@ -12,3 +12,4 @@ ClusterImage.egg-info
 
 .DS_Store
 .vscode
+.~lock*
