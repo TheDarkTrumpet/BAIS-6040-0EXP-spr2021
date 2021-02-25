@@ -13,3 +13,8 @@ ClusterImage.egg-info
 .DS_Store
 .vscode
 .~lock*
+
+export/*.csv
+export/*.json
+export/*.xls
+export/*.xlsx
