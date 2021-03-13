@@ -18,3 +18,4 @@ export/*.csv
 export/*.json
 export/*.xls
 export/*.xlsx
+export/*.png
