@@ -41,7 +41,7 @@ def getChartPlot():
     plt.subplots(figsize=(10, 6))
     axis = sns.barplot(x="Pie", y="Rate", hue="Country", data=pieData, ci=None, palette="muted", orient='v')
     axis.set_title("Pie Rates!")
-    axis.set_xlabel("Country")
+    axis.set_xlabel("Pies")
     axis.set_ylabel("Rate")
 
     buf = BytesIO()
